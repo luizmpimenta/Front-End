@@ -1,0 +1,265 @@
+
+* {
+	font-family: "Verdana";
+	
+}
+#hero{
+	 color: red;
+	 background-color: black;
+	 background-image: url(https://i.pinimg.com/originals/bb/20/a3/bb20a3e73b9d532de18d88324bbfa1d5.png);
+	 height: 500px;
+	 background-attachment: fixed;
+	 text-align: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+.hero-content {
+	padding: 179px 0;
+	color: white;
+	max-width: 400px;
+	display: inline-block;
+}
+ 
+ 
+
+.main-text-header {
+	background-image: url(http://www.grupoallimenta.com.br/portal/images/logo_grupoallimenta.png);
+	height: 75px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 10px;
+}
+.main-text-header span {
+	margin-left: -9999em;
+}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+}
+nav#menu-principal {
+	position: absolute;
+}
+nav#menu-principal ul#lista {
+	position: relative;
+    bottom: 10px;
+    padding-right: 75px;
+    padding-left: 49px;
+    padding-top: 54px;
+    margin-left: -278px;
+    list-style: none;
+	}
+nav#menu-principal ul li,nav#menu-footer dl dd{
+	float: left;
+}
+nav#menu-principal ul li{
+	width: 203px;
+    height: 96px;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    line-height: 69px;
+    margin-right: 1px;
+    font-family: Verdana;
+    }
+nav#menu-principal ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	
+	
+
+}
+
+nav#menu-principal ul li a:hover,
+nav#menu-principal ul li a:focus,
+nav#menu-principal ul li:target a{
+    color:green;
+	background-color: white;
+	border-top: 50%;
+    cursor: pointer; 
+    transition: 1s;
+}
+th {
+    background-color: #efefef;
+    height: 60px;
+}
+table {
+    color: #919191;
+    font-weight: bold;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+td, th {
+    box-shadow: inset 0px 0px 0px 1px #e1e1e1;
+    padding: 23px;
+}
+tbody tr:nth-child(odd) {
+	background-image: repeating-linear-gradient(45deg, #ccc, #ccc 30px, #dbdbdb 30px, #dbdbdb 60px);
+}
+tbody tr {
+	font-weight: bold;
+	color: #3d8501;
+}
+section#nossaequipe {
+	background-color: #efefef;
+}
+section#nossaequipe article{
+	float: left;
+	width: 320px;
+	margin-right: 1.25em;
+	margin: 20px;
+}
+
+section#nossaequipe article img{
+	border-radius: 50%; 
+	float: left;
+	margin-right: 12px;
+}
+section#nossaequipe article h3{
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+}
+section#nossaequipe article h3{
+	color: #e57373; font-size: 16px; 
+	font-weight: 700;
+	margin: 0 0.5em;
+}
+
+section#nossaequipe article p{
+	font-size: 13px; line-height: 19px;
+	 margin-bottom: 0.9em;
+}
+section#nossaequipe article a{
+	text-decoration: none; color: #f44336;
+	 font-size: 13px;
+}
+section#nossaequipe article img:hover {
+     border: 2px solid green;
+    border-radius: 50%;
+    cursor: pointer; 
+    
+}
+section#contato form{
+
+	margin-top: 40px;
+	position: relative;
+	padding: 10px 10px 10px 440px;
+	
+
+}
+div#nome{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+div#idade{
+font-weight: bold;
+margin-bottom: 20px;
+
+}
+section#contato h3{
+	font-family: "Verdana";
+	font-size: 15px;
+	color: green;
+	
+}
+ dl#ancora dd a {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	list-style: none;
+	font-family: "Verdana";
+    color: green;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+nav#social{
+	position: relative;
+}
+nav#social dl{
+	position: absolute;
+	right: 0;
+	
+}
+nav#social dl dd{
+	width: 40px; 
+	height: 40px; 
+	float: left; 
+	margin: 5px;
+}
+
+nav#social dl dd a{
+
+	display: block; 
+	height: 100%;
+	 text-indent: -999999em;
+	background: url("../img/sprite-social.png") no-repeat;
+}
+nav#social dl dd:nth-child(1) a{
+	background-position: 0 0;
+}
+nav#social dl dd:nth-child(2) a{
+	background-position: -40px 0;
+}
+nav#social dl dd:nth-child(1) a:hover{
+	background-position: 0 -40px;
+}
+nav#social dl dd:nth-child(2) a:hover{
+	background-position: -40px -40px;
+}
+
+
+
+
+/*Grid System*/
+
+.col-1{
+	width: 8.33%;
+	float: left;
+}
+.col-2{
+	width: 16.67%;
+	float: left;
+}
+.col-3{
+	width: 25%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-5{
+	width: 41.67%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-7{
+	width: 58.33%;
+	float: left;
+}
+.col-8{
+	width: 66.67%;
+	float: left;
+}
+.col-9{
+	width: 75%;
+	float: left;
+}
+.col-10{
+	width: 83.33%;
+	float: left;
+}
+.col-11{
+	width: 91.67%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
