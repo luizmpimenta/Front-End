@@ -1,0 +1,52 @@
+.header {
+  background-color: #1f1f1f;
+}
+.logo {
+  position: relative;
+  left: 12px;
+}
+.menu {
+  position: absolute;
+  text-align: center;
+  width: 30%;
+  top: 8%;
+  left: 70%;
+}
+.menu ul {
+  list-style: none;
+  width: 85%;
+  height: 50%;
+}
+.menu ul li {
+  color: #ff8300;
+  display: inline;
+  font-size: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 4px;
+}
+.banner {
+  width: 1280px;
+  height: 600px;
+}
+.principal {
+  position: absolute;
+  background-color: #a6a6a6;
+}
+.principal article {
+  position: relative;
+  display: inline-block;
+  width: 33%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.principal a {
+  background-color: #f60;
+  font-size: 100%;
+  text-decoration: none;
+  color: #1f1f1f;
+  position: relative;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  bottom: 1%;
+}
